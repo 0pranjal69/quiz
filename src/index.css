@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.poppins{
+    font-family: "Poppins", sans-serif;
+  
+    font-style: normal;
+  }
+  
+
+  .nunito {
+    font-family: "Nunito", sans-serif;
+ 
+  }
