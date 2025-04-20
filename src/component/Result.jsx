@@ -1,10 +1,36 @@
 import React, { useEffect, useState } from 'react';
 
 const questions = [
-  { id: 0, question: 'What is the capital of France?', options: ['Paris', 'Berlin', 'Madrid', 'Rome'], answer: 'Paris' },
-  { id: 1, question: 'What is 2 + 2?', options: ['3', '4', '5', '6'], answer: '4' },
-  { id: 2, question: 'What is the color of the sky?', options: ['Blue', 'Green', 'Red', 'Yellow'], answer: 'Blue' },
-  { id: 3, question: 'Which animal barks?', options: ['Dog', 'Cat', 'Cow', 'Horse'], answer: 'Dog' },
+  {
+    id: 0,
+    question: 'Which language is used to style web pages?',
+    options: ['CSS', 'JavaScript', 'Python', 'PHP'],
+    answer: 'CSS',
+  },
+  {
+    id: 1,
+    question: 'What does HTML stand for?',
+    options: [
+      
+      'Home Tool Markup Language',
+      'HyperText Markup Language',
+      'Hyperlink and Text Markup Language',
+      'Hyperlink Markup Language',
+    ],
+    answer: 'HyperText Markup Language',
+  },
+  {
+    id: 2,
+    question: 'What color is usually used for a hyperlink?',
+    options: ['Blue', 'Green', 'Red', 'Yellow'],
+    answer: 'Blue',
+  },
+  {
+    id: 3,
+    question: 'Which tag is used to display images in HTML?',
+    options: ['<img>', '<div>', '<p>', '<h1>'],
+    answer: '<img>',
+  },
 ];
 
 function Result() {
